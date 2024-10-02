@@ -53,17 +53,55 @@
 
 						<!-- Featured Post -->
 							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Aqib Bashir</a></h2>
-									<p>data professional skilled in data extraction, ETL processes, and Power BI reporting. <br />
-									I create dashboards, reports, and integrate business logic into data warehouses, ensuring data accuracy and security. <br />
-								        I also communicate effectively with clients to ensure timely project delivery.<br />
-								</header>
-								<a href="#" class="image main"><img src="images/image linkedin.jpeg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://drive.google.com/file/d/13fmighn89oq95K70bay-GIMAR6pPG56m/view?usp=drive_link" class="button large">Download CV</a></li>
-								</ul>
-							</article>
+				    <div class="content-container">
+				        <div class="text-container">
+				            <header class="major">
+				                <h2><a href="#">Aqib Bashir</a></h2>
+				                <p>
+				                    Data professional skilled in data extraction, ETL processes, and Power BI reporting. <br />
+				                    I create dashboards, reports, and integrate business logic into data warehouses, ensuring data accuracy and security. <br />
+				                    I also communicate effectively with clients to ensure timely project delivery.
+				                </p>
+				            </header>
+				            <ul class="actions special">
+				                <li><a href="https://drive.google.com/file/d/13fmighn89oq95K70bay-GIMAR6pPG56m/view?usp=drive_link" class="button large">Download CV</a></li>
+				            </ul>
+				        </div>
+				        <div class="image-container">
+				            <a href="#" class="image main">
+				                <img src="images/image linkedin.jpeg" alt="" />
+				            </a>
+				        </div>
+				    </div>
+				</article>
+				
+				<!-- CSS to align the content in a row -->
+				<style>
+				    .content-container {
+				        display: flex;
+				        align-items: center;
+				        justify-content: space-between;
+				        gap: 20px; /* Adjust gap between text and image as needed */
+				    }
+				    .text-container {
+				        flex: 1;
+				    }
+				    .image-container {
+				        flex: 1;
+				    }
+				    .image-container img {
+				        max-width: 100%;
+				        height: auto;
+				        border-radius: 8px; /* Optional: To add rounded corners to the image */
+				    }
+				    @media (max-width: 768px) {
+				        /* Stack the content vertically on smaller screens */
+				        .content-container {
+				            flex-direction: column;
+				        }
+				    }
+				</style>
+
 
 						
 
