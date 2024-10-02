@@ -16,7 +16,13 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 gap: 20px;
+                /* Adding border between columns */
+                border-right: 3px solid #18bfef; /* Add border between columns */
             }
+            .skills-grid > div {
+                padding-right: 20px;
+            }
+
             .skill-container {
                 margin-bottom: 20px;
             }
@@ -65,7 +71,9 @@
 
                         <!-- Post -->
                             <section class="post">
-                                    <h1>Skills</h1>
+                                <div>
+                                    <h2>skills</h2>
+                                </div>
 
                                 <!-- Skills in two columns with Progress Bars -->
                                 <div class="skills-grid">
